@@ -1,10 +1,9 @@
 # Databricks notebook source
-# MAGIC %sql
-# MAGIC
-# MAGIC DROP SCHEMA IF EXISTS tj_db CASCADE
+%sql
 
-# COMMAND ----------
+DROP SCHEMA IF EXISTS tj_db CASCADE
 
+%Python
 ## DELETE Schema Objects if Necessary 
 dbutils.fs.rm("dbfs:/FileStore/tables/TraderJoesRevenue/schema", True)
 dbutils.fs.rm("dbfs:/FileStore/tables/TraderJoesRevenue/checkpoints", True)
