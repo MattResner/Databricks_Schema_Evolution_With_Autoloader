@@ -95,4 +95,20 @@ Total Revenue, COGS, and Revenue are all present in the final schema
 
 ## Cleaning Up our Demo with the Deletion Step
 
+Finally after practicing with our data we should delete the data and schema from storage to keep our enviroment clean. 
+
+Opening and running [9. (Databricks) Cleanup.ipynb](https://github.com/MattResner/Databricks_Schema_Evolution_With_Autoloader/blob/main/9.%20(Databricks)%20Cleanup.ipynb) will delete all the files, tables, and schema locations created in [1. (Databricks) Database Configuration.ipynb](https://github.com/MattResner/Databricks_Schema_Evolution_With_Autoloader/blob/main/1.%20(Databricks)%20Database%20Configuration.ipynb). 
+
+Returning to the /dbfs/FileStore/tables/TraderJoesRevenue path will confirm that the schema, checkpoints, database tables, and files have been removed
+
+![image](https://github.com/user-attachments/assets/77a3e023-9659-43df-8e02-2c5124d60755)
+
+### Thanks for Reading
+
+If you'd like to reach out to me with questions regarding this project please message me on [Linkedin](https://www.linkedin.com/in/matthewresner/).
+
+Matthew (Rez) Resner
+
+
+
 
